@@ -4,7 +4,6 @@
 
 #include <picknik_registration/ndt_registration.hpp>
 #include <picknik_registration/ransac_registration.hpp>
-#include <picknik_registration/spawn_mesh.hpp>
 
 #include <pluginlib/class_list_macros.hpp>
 

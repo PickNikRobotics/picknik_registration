@@ -3,7 +3,6 @@
 #include <tl_expected/expected.hpp>
 #include <moveit_studio_behavior_interface/async_behavior_base.hpp>
 #include <moveit_studio_behavior_interface/check_for_error.hpp>
-// #include <moveit_studio_vision/geometry_types.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <std_msgs/msg/header.hpp>
@@ -83,7 +82,6 @@ BT::PortsList RANSACRegistration::providedPorts()
 
 BT::KeyValueVector RANSACRegistration::metadata()
 {
-  // TODO(...)
   return { {"description", "Finds the pose of a target point cloud relative to the base frame of a base point cloud using the Normal Distributions Transform (NDT) algoritm"} };
 }
 

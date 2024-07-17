@@ -33,7 +33,6 @@ target_include_directories(
          PRIVATE ${PCL_INCLUDE_DIRS})
 ament_target_dependencies(picknik_registration
                           ${THIS_PACKAGE_INCLUDE_DEPENDS})
-# target_link_libraries(picknik_registration ${PCL_LIBRARIES})
 
 # Install Libraries
 install(
