@@ -14,6 +14,7 @@
 
   <depend>moveit_studio_behavior_interface</depend>
   <depend>perception_pcl</depend>
+  <depend>moveit_ros_planning_interface</depend>
   <depend>moveit_studio_vision_msgs</depend>
   <depend>moveit_studio_vision</depend>
 
