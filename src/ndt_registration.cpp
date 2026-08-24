@@ -1,4 +1,7 @@
 #include <picknik_registration/ndt_registration.hpp>
+
+// Portions adapted from the Point Cloud Library Normal Distributions Transform tutorial.
+// See NOTICE and LICENSES/PCL-BSD.txt for source and licensing details.
 #include <pcl/registration/ndt.h>
 #include <tl_expected/expected.hpp>
 #include <moveit_studio_behavior_interface/async_behavior_base.hpp>
