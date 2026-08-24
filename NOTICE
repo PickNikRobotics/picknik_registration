@@ -1,0 +1,17 @@
+Third-party notices
+===================
+
+Point Cloud Library tutorials
+-----------------------------
+
+Portions of `src/ndt_registration.cpp` are adapted from the Point Cloud
+Library Normal Distributions Transform tutorial:
+https://github.com/PointCloudLibrary/pcl/blob/master/doc/tutorials/content/sources/normal_distributions_transform/normal_distributions_transform.cpp
+
+Portions of `src/ransac_registration.cpp` are adapted from the Point Cloud
+Library alignment prerejective tutorial:
+https://github.com/PointCloudLibrary/pcl/blob/master/doc/tutorials/content/sources/alignment_prerejective/alignment_prerejective.cpp
+
+Point Cloud Library (PCL) is copyright 2009-2012 Willow Garage, Inc.,
+copyright 2012- Open Perception, Inc., and respective authors. These portions
+are used under PCL's BSD license, reproduced in `LICENSES/PCL-BSD.txt`.

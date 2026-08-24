@@ -1,4 +1,7 @@
 #include <picknik_registration/ransac_registration.hpp>
+
+// Portions adapted from the Point Cloud Library alignment prerejective tutorial.
+// See NOTICE and LICENSES/PCL-BSD.txt for source and licensing details.
 #include <pcl/registration/ndt.h>
 #include <tl_expected/expected.hpp>
 #include <moveit_studio_behavior_interface/async_behavior_base.hpp>
